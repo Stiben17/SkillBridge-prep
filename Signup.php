@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("ssssisiss", $name, $email, $password, $role, $phone_number, $subject, $experience, $admin_code, $username);
 
         if ($stmt->execute()) {
-            echo "<script>alert('Signup successful! You can now log in.');</script>";
+            echo "<script>alert('Signup successful! You can now log in.'); window.location.href = 'Login.php';</script>";
         } else {
             echo "<script>alert('Error during signup.');</script>";
         }
