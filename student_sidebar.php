@@ -5,5 +5,6 @@
     <a href="my_certificates.php">📜 My Certificates</a>
     <a href="find_instructors.php">👩‍🏫 Find Instructors</a>
     <a href="student_settings.php">⚙️ Settings</a>
+    <a href="Payment_page.php"> Payment</a>
     <a href="logout.php" style="color: #ff4d4d;">🚪 Logout</a>
 </div>
