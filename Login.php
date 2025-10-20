@@ -37,10 +37,10 @@ if (!$conn) {
 
             // Redirect based on role
             if ($login['role'] === 'student') {
-                header("Location: Student_dashboard.php");
+                header("Location: student_dashboard.php");
                
             } elseif ($login['role'] === 'teacher') {
-                header("Location: Teacher_dashboard.PHP");
+                header("Location: teacher_dashboard.php");
             } elseif ($login['role'] === 'admin') {
                 header("Location: Admin_dashboard.php");
             }
